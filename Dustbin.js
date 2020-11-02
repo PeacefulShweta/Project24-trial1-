@@ -5,7 +5,7 @@ class Dustbin {
           'friction':0,
           'density':0
       }
-      this.body = Bodies.rectangle(x, y,radius);
+      this.body = Bodies.rectangle(x, y,radius);// in place of radius write width, height .
       this.width = width;
       this.height = height;
       
